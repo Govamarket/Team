@@ -145,9 +145,17 @@ ul li a button:hover{
     color: #fff;
 }
 .fa-sharp{
+    align-items: center;
+    text-align: center;
+    padding-top: 0.6rem;
     color: #fff;
-    font-size: 3rem;
-    position: absolute;
+    font-size: 1rem;
+    border: 3px solid #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    position: fixed;
+   background-attachment: fixed;
 }
 
 
@@ -218,6 +226,22 @@ nav .logo img{
 .mop{
     top: 8rem;
     position: absolute;
+}
+
+.fa-sharp{
+    align-items: center;
+    text-align: center;
+    padding-top: 0.6rem;
+    color: #fff;
+    font-size: 1rem;
+    border: 3px solid #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    position: fixed;
+   background-attachment: fixed;
+   top: 14rem;
+   right: 3rem;
 }
 }
 
