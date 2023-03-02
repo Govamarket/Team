@@ -18,6 +18,31 @@ body{
     background-color: #303030;
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+nav .logo img{
+    width: 5rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  margin-left: 10rem;
+}
 .burger {
     display: none;
     cursor: pointer;
@@ -30,28 +55,6 @@ body{
     background-color: #fff;
     transition: all 0.3 ease;
   }
-html{
-    scroll-behavior: smooth;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    overflow: hidden;
-}
-nav .logo img{
-    width: 5rem;
-}
-
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-  width: 30%;
-  margin-right: 10rem;
-}
 
 /* Ending navbar */
 
@@ -64,6 +67,7 @@ ul li {
     color: #fff;
  }
 .vertical{
+    margin-left: 3rem;
     border-left: 1px solid #ccc;
     height: 40px;
 }
@@ -257,9 +261,6 @@ ul li a button:hover{
         justify-content: space-around;
         align-items: center;
         min-height: 8vh;
-        background-color: rgb(26,115,232);
-        background-position: fixed;
-        background-size: cover;
         width: 100%;
         height: 100%;
       }
@@ -270,8 +271,7 @@ ul li a button:hover{
     width: 100%;
     position: absolute;
     height: 26rem;
-    top: 10.24vh;
-    background-color: rgb(26,115,232);
+    top: 10.24vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,18 +315,7 @@ ul li a button:hover{
         transform: rotate(45deg) translate(-5px, -6px);
       }
     
-      .nav-links form input {
-        width: 6rem;
-        height: 3rem;
-      }
-
-
-    .container{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-left: 1rem;
-    }
+    
     .col5{
         display: flex;
         flex-wrap: wrap;
