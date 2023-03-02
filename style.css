@@ -182,6 +182,8 @@ ul li a button:hover{
 
 .row{
     margin-left: 3px;
+    margin-top: 24rem;
+    top: 0;
 }
 
 .col2 h1{
@@ -205,6 +207,11 @@ ul li a button:hover{
 nav .logo img{
     width: 5rem;
     margin-right: 5rem;
+}
+
+.mop{
+    top: 8rem;
+    position: absolute;
 }
 }
 
