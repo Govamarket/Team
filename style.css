@@ -137,6 +137,14 @@ ul li a button:hover{
     border-radius: 1rem;
     
 }
+
+.mop .fa-solid{
+    position: absolute;
+    margin-left: 6rem;
+    padding-top: 10rem;
+    font-size: 50px;
+    color: #fff;
+}
 .fa-sharp{
     color: #fff;
     font-size: 3rem;
