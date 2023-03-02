@@ -6,9 +6,10 @@
 }
 header{
     background-image: url(./img/photo-1489599849927-2ee91cede3ba.avif);
-    background-position: fixed;
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: red;
     clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 92%, 80% 100%, 19% 100%, 0 92%, 0 0);
 
 }
@@ -21,8 +22,6 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    /* padding: 2rem; */
-    /* background-color: #5e5353; */
 }
 nav .logo img{
     width: 5rem;
@@ -203,7 +202,6 @@ ul li a button:hover{
 .col3{
     display: flex;
     align-items: center;
-    /* gap: 7px; */
     letter-spacing: 0px;
     text-transform: 0px;
 }
@@ -223,6 +221,7 @@ nav .logo img{
 }
 }
 
+/* Big screen media */
 @media screen and (max-width: 1000px) {
     .nav-links{
         display: none;
