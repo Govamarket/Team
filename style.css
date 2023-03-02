@@ -94,8 +94,8 @@ ul li a button:hover{
     margin-left: 4rem;
 }
 
-.col2 h2{
-    letter-spacing: 4px;
+.col2 h1{
+    letter-spacing: 1px;
     text-transform: bolder;
     font-size: 40px;
 }
@@ -110,7 +110,6 @@ ul li a button:hover{
     color: yellow;
 }
 .col4{
-    letter-spacing: 4px;
     text-transform: bolder;
 }
 
@@ -185,10 +184,11 @@ ul li a button:hover{
     margin-left: 3px;
 }
 
-.col2 h2{
+.col2 h1{
     letter-spacing: 0px;
     text-transform: bolder;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .col3{
     display: flex;
