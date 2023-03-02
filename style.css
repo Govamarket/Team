@@ -200,6 +200,11 @@ ul li a button:hover{
 .col1 h4{
     display: block;
 }
+
+nav .logo img{
+    width: 5rem;
+    margin-right: 5rem;
+}
 }
 
 @media screen and (max-width: 1000px) {
