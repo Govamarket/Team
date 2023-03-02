@@ -198,6 +198,8 @@ ul li a button:hover{
     top: 32rem;
     position: absolute;
     border-radius: 1rem;
+    background-attachment: fixed;
+    background-position: fixed;
 }
 
 .main p{
