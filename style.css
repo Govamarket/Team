@@ -100,7 +100,7 @@ ul li a button:hover{
 .col2 h2{
     letter-spacing: 4px;
     text-transform: bolder;
-    font-size: 30px;
+    font-size: 40px;
 }
 .col3{
     display: flex;
@@ -190,7 +190,7 @@ ul li a button:hover{
 .col2 h2{
     letter-spacing: 0px;
     text-transform: bolder;
-    font-size: 40px;
+    font-size: 30px;
 }
 .col3{
     display: flex;
