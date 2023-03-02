@@ -186,14 +186,11 @@ ul li a button:hover{
 .row{
     margin-left: 1rem;
 }
-.col1 p{
-    letter-spacing: 0px;
-}
 
 .col2 h2{
     letter-spacing: 0px;
     text-transform: bolder;
-    font-size: 20px;
+    font-size: 40px;
 }
 .col3{
     display: flex;
