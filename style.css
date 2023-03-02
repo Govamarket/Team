@@ -93,9 +93,6 @@ ul li a button:hover{
 .row{
     margin-left: 4rem;
 }
-.col1 p{
-    letter-spacing: 4px;
-}
 
 .col2 h2{
     letter-spacing: 4px;
@@ -184,7 +181,7 @@ ul li a button:hover{
 
 
 .row{
-    margin-left: 1rem;
+    margin-left: 3px;
 }
 
 .col2 h2{
@@ -198,6 +195,10 @@ ul li a button:hover{
     /* gap: 7px; */
     letter-spacing: 0px;
     text-transform: 0px;
+}
+
+.col1 h4{
+    display: block;
 }
 }
 
